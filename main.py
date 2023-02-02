@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 from comand_bot import *
 from datetime import *
 
-TOKEN = "5923800644:AAHGyd3Bwtb0YR1eXoBjjRkXuTyoH4711fg"
+TOKEN = ""
 app = ApplicationBuilder().token(TOKEN).build()
 
 app.add_handler(CommandHandler("hi", hi_comand))
